@@ -28,6 +28,4 @@ FROM HighestSpeeds
 ORDER BY highest_average_speed DESC
 LIMIT 3;
 
--- Cupid,88.64
--- Blitzen,88.38
--- Vixen,88.01
+

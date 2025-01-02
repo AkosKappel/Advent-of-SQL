@@ -22,5 +22,10 @@ FROM children c
 JOIN public.wish_lists wl ON c.child_id = wl.child_id
 LEFT JOIN toy_catalogue tc ON tc.toy_name = wl.wishes->>'first_choice'
 ORDER BY c.name
-LIMIT 5
+LIMIT 5;
 
+-- Building sets,LEGO blocks,Blue,1,Complex Gift,Learning Workshop
+-- Stuffed animals,Teddy bears,White,4,Complex Gift,General Workshop
+-- Toy trains,Toy trains,Pink,2,Complex Gift,General Workshop
+-- Barbie dolls,Play-Doh,Purple,1,Moderate Gift,General Workshop
+-- Yo-yos,Building blocks,Blue,5,Simple Gift,General Workshop
